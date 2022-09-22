@@ -75,7 +75,7 @@ public class Box {
 
 	public boolean encloses(Box f) {
 		
-		// teste alle moeglichen Kombinationen
+		// tested all possible combinations
 
 		return (width >= f.width && height >= f.height && depth >= f.depth)
 				|| (width >= f.width && height >= f.depth && depth >= f.height)
